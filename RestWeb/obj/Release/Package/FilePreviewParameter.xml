@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="restaurantNET" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\BME\\8\.\ félév\\dotNET\\VisualStudio\\RestaurantSystem\\RestWeb\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\BME\\8\.\ félév\\dotNET\\VisualStudio\\RestaurantSystem\\RestWeb\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="restDB-Web.config Connection String" description="" value="Data Source=tcp:swxfd1q1h8.database.windows.net,1433;Initial Catalog=restaurantNET_db;User Id=restNorbi@swxfd1q1h8;Password=22HangfalRest" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\BME\\8\.\ félév\\dotNET\\VisualStudio\\RestaurantSystem\\RestWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='restDB']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,3 @@
+Bab2;0;Vörös;23;
+Csirke2;2;Finom;50;
+Galád2;talány;2;

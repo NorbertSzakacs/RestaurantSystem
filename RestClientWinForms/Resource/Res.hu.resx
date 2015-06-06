@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btActForm2" xml:space="preserve">
+    <value>Vissza</value>
+  </data>
+  <data name="btnAddItem" xml:space="preserve">
+    <value>Hozzáad</value>
+  </data>
+  <data name="btnDelItem" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="btnImportItem" xml:space="preserve">
+    <value>.txt importálás</value>
+  </data>
+  <data name="btnImportItemXML" xml:space="preserve">
+    <value>.xml importálás</value>
+  </data>
+  <data name="btnNewFileBrowse" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+  <data name="categoryLabel" xml:space="preserve">
+    <value>Kategóriája:</value>
+  </data>
+  <data name="deleteLabel" xml:space="preserve">
+    <value>Kiválasztott tétel törlése</value>
+  </data>
+  <data name="descriptionLabel" xml:space="preserve">
+    <value>Leírása:</value>
+  </data>
+  <data name="fileContLabel" xml:space="preserve">
+    <value>A fájl tartalma:</value>
+  </data>
+  <data name="formName" xml:space="preserve">
+    <value>Tétel kezelés</value>
+  </data>
+  <data name="headerLabel" xml:space="preserve">
+    <value>Itt tudod menedzselni a tételeket.</value>
+  </data>
+  <data name="importLabel" xml:space="preserve">
+    <value>Új tétel importálása</value>
+  </data>
+  <data name="inventLabel" xml:space="preserve">
+    <value>Rendszerben lévő termékek</value>
+  </data>
+  <data name="invGridCat" xml:space="preserve">
+    <value>Kategória</value>
+  </data>
+  <data name="invGridDesc" xml:space="preserve">
+    <value>Leírás</value>
+  </data>
+  <data name="invGridItemID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="invGridItemName" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="invGridPrice" xml:space="preserve">
+    <value>Ár</value>
+  </data>
+  <data name="nameLabel" xml:space="preserve">
+    <value>Tétel neve:</value>
+  </data>
+  <data name="newItemLabel" xml:space="preserve">
+    <value>Új tétel hozzáadása</value>
+  </data>
+  <data name="priceLabel" xml:space="preserve">
+    <value>Ára:</value>
+  </data>
+  <data name="radioEN" xml:space="preserve">
+    <value>Angol (English)</value>
+  </data>
+  <data name="radioHU" xml:space="preserve">
+    <value>Magyar</value>
+  </data>
+  <data name="capDel" xml:space="preserve">
+    <value>Törlés megerősítés</value>
+  </data>
+  <data name="capDelProb" xml:space="preserve">
+    <value>Valami nem stimmel...</value>
+  </data>
+  <data name="capError" xml:space="preserve">
+    <value>Hiba!</value>
+  </data>
+  <data name="msgAddProb" xml:space="preserve">
+    <value>A szükséges adatok nem lettek jól megadva. Próbáld újra!</value>
+  </data>
+  <data name="msgDel" xml:space="preserve">
+    <value>Biztosan törölni szeretnéd a kiválasztott tételt?</value>
+  </data>
+  <data name="msgDelProb" xml:space="preserve">
+    <value>A kiválasztott termék nem törölhető. Rendeléshez van társítva.</value>
+  </data>
+  <data name="msgFileTxtProb" xml:space="preserve">
+    <value>A kiválasztott fájlnak *.txt formátumúnak kell lennie ehhez a művelethez!</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>asd</value>
+  </data>
+  <data name="msgFilePathProb" xml:space="preserve">
+    <value>Érvénytelen elérési út!</value>
+  </data>
+  <data name="msgFileXmlProb" xml:space="preserve">
+    <value>A kiválasztott fájlnak *.xml formátumúnak kell lennie!</value>
+  </data>
+  <data name="msgXmlError" xml:space="preserve">
+    <value>A fájl megbukott a sémavalidáción!</value>
+  </data>
+</root>

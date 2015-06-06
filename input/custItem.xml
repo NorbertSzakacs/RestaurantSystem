@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<ItemDTO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="ItemDTO-schema">
+  <ItemID>-1</ItemID>
+  <ItemName>Xmlteszt2</ItemName>
+  <CategoryName />
+  <CategoryID>2</CategoryID>
+  <Description>mégint</Description>
+  <UnitPrice>2</UnitPrice>
+</ItemDTO>

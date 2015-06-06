@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="restDB-Web.config Connection String" description="restDB Connection String used in web.config by the application to access the database." defaultValue="data source=(localdb)\teszt1;initial catalog=restDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\BME\\8\.\ félév\\dotNET\\VisualStudio\\RestaurantSystem\\RestWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='restDB']/@connectionString" />
+  </parameter>
+</parameters>

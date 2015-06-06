@@ -1,0 +1,5 @@
+E:\BME\8. félév\dotNET\VisualStudio\RestaurantSystem\RestaurantCustomController\bin\Debug\RestaurantCustomController.dll
+E:\BME\8. félév\dotNET\VisualStudio\RestaurantSystem\RestaurantCustomController\bin\Debug\RestaurantCustomController.pdb
+E:\BME\8. félév\dotNET\VisualStudio\RestaurantSystem\RestaurantCustomController\obj\Debug\RestaurantCustomController.csprojResolveAssemblyReference.cache
+E:\BME\8. félév\dotNET\VisualStudio\RestaurantSystem\RestaurantCustomController\obj\Debug\RestaurantCustomController.dll
+E:\BME\8. félév\dotNET\VisualStudio\RestaurantSystem\RestaurantCustomController\obj\Debug\RestaurantCustomController.pdb
